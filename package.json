@@ -1,0 +1,26 @@
+{
+  "name": "lounger",
+  "version": "1.0.0",
+  "description": "a tool for couchdb administration",
+  "type": "module",
+  "main": "index.js",
+  "bin": "./bin/lounger-cli.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "couchdb",
+    "pouchdb"
+  ],
+  "author": "Shai Cioara",
+  "license": "ISC",
+  "dependencies": {
+    "nopt": "^7.2.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "nock": "^13.3.3"
+  }
+}
